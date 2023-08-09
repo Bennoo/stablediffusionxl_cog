@@ -7,5 +7,7 @@ build:
     - "transformers"
     - "safetensors"
     - "accelerate"
+  system_packages:
+    - "libgl1"
 
 predict: "predict.py:Predictor"

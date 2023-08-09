@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+import os
+import shutil
 from diffusers import DiffusionPipeline
 import torch
 
